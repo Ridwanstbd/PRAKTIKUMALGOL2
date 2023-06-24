@@ -30,7 +30,7 @@ class operasi extends kalkulator {
         System.out.println("Angka yang anda jumlahkan ");
         for(int i = 0;i< n;i++){
             System.out.print(inputan[i]);
-            if (i > inputan.length -1) {
+            if (i > inputan.length-1) {
                 break;
             } else {
                 System.out.print(" + ");
@@ -54,7 +54,7 @@ class operasi extends kalkulator {
         System.out.println("Angka yang anda kurangi ");
         for(int i = 0;i< n;i++){
             System.out.print(inputan[i]);
-            if (i > inputan.length -1) {
+            if (i > inputan.length-1) {
                 break;
             } else {
                 System.out.print(" - ");
@@ -77,7 +77,7 @@ class operasi extends kalkulator {
         System.out.println("Angka yang anda kali ");
         for(int i = 0;i< n;i++){
             System.out.print(inputan[i]);
-            if (i > inputan.length -1) {
+            if (i > inputan.length-1) {
                 break;
             } else {
                 System.out.print(" x ");
@@ -99,7 +99,7 @@ class operasi extends kalkulator {
         System.out.println("Angka yang anda bagi ");
         for(int i = 0;i< n;i++){
             System.out.print(inputan[i]);
-            if (i > inputan.length -1) {
+            if (i > inputan.length-1) {
                 break;
             } else {
                 System.out.print(" / ");
